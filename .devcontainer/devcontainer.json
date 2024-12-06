@@ -1,0 +1,11 @@
+//{
+//    "build": {
+//        "dockerfile": "../dockerfile"
+//    }
+//}
+
+{
+    "name": "Office Add-in Development",
+    "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-14",
+    "postCreateCommand": "npm install"
+}
